@@ -8,7 +8,7 @@ makedocs(;
     sitename="ImageStitching.jl",
     format=Documenter.HTML(;
         prettyurls=get(ENV, "CI", "false") == "true",
-        canonical="https://arcAman07.github.io/ImageStitching.jl",
+        canonical="https://juliaimages.org/ImageStitching.jl",
         assets=String[],
     ),
     pages=[
