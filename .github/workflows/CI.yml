@@ -19,13 +19,23 @@ jobs:
       matrix:
         version:
           - '1.0'
-          - '1.7'
+          - '1.6' # Replace this with the minimum Julia version that your package supports.
           - 'nightly'
         os:
           - ubuntu-latest
         arch:
           - x64
           - x86
+        include:
+          - os: windows-latest
+            julia-version: '1'
+            arch: x64
+          - os: macOS-latest
+            julia-version: '1'
+            arch: x64
+          - os: ubuntu-latest
+            julia-version: '1'
+            arch: x86
     steps:
       - uses: actions/checkout@v2
       - uses: julia-actions/setup-julia@v1
