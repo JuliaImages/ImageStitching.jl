@@ -18,14 +18,13 @@ jobs:
       fail-fast: false
       matrix:
         version:
-          - '1.0'
-          - '1.6' # Replace this with the minimum Julia version that your package supports.
+          - '1.6'
+          - '1'
           - 'nightly'
         os:
           - ubuntu-latest
         arch:
           - x64
-          - x86
         include:
           - os: windows-latest
             julia-version: '1'

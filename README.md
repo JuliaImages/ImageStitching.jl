@@ -10,7 +10,7 @@
 
 [pkgeval-img]: https://juliaci.github.io/NanosoldierReports/pkgeval_badges/I/ImageStitching.svg
 [pkgeval-url]: https://juliaci.github.io/NanosoldierReports/pkgeval_badges/report.html
-[action-img]: https://github.com/JuliaImages/ImageStitching.jl/workflows/Unit%20test/badge.svg
+[action-img]: https://github.com/JuliaImages/ImageStitching.jl/workflows/CI/badge.svg
 [action-url]: https://github.com/JuliaImages/ImageStitching.jl/actions
 [codecov-img]: https://codecov.io/github/JuliaImages/ImageStitching.jl/coverage.svg?branch=master
 [codecov-url]: https://codecov.io/github/JuliaImages/ImageStitching.jl?branch=master
