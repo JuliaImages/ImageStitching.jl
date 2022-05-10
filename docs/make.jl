@@ -5,8 +5,6 @@ DocMeta.setdocmeta!(ImageStitching, :DocTestSetup, :(using ImageStitching); recu
 
 makedocs(;
     modules=[ImageStitching],
-    authors="Aman <aman.sharma2020b@vitstudent.ac.in> and contributors",
-    repo="https://github.com/arcAman07/ImageStitching.jl/blob/{commit}{path}#{line}",
     sitename="ImageStitching.jl",
     format=Documenter.HTML(;
         prettyurls=get(ENV, "CI", "false") == "true",
