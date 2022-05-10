@@ -17,6 +17,6 @@ makedocs(;
 )
 
 deploydocs(;
-    repo="github.com/arcAman07/ImageStitching.jl",
+    repo="github.com/JuliaImages/ImageStitching.jl",
     devbranch="master",
 )
